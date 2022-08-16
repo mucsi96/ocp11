@@ -1,4 +1,4 @@
-package org.example.C9advancedClassDesign;
+package org.example.C09advancedClassDesign;
 
 import org.junit.jupiter.api.Test;
 

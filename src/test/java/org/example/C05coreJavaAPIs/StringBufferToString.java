@@ -1,4 +1,4 @@
-package org.example.C5coreJavaAPIs;
+package org.example.C05coreJavaAPIs;
 
 import org.junit.jupiter.api.Test;
 

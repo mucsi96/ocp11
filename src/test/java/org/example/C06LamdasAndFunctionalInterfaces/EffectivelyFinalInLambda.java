@@ -1,4 +1,4 @@
-package org.example.C6LamdasAndFunctionalInterfaces;
+package org.example.C06LamdasAndFunctionalInterfaces;
 
 import org.junit.jupiter.api.Test;
 

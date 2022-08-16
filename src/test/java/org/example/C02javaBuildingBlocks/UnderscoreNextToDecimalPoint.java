@@ -1,4 +1,4 @@
-package org.example.C2javaBuildingBlocks;
+package org.example.C02javaBuildingBlocks;
 
 import org.junit.jupiter.api.Test;
 

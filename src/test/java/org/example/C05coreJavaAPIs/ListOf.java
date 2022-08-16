@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 public class ListOf {
     @Test
     void test() {
@@ -11,6 +13,6 @@ public class ListOf {
         List a = List.of(1, 2);
 
         // java.lang.UnsupportedOperationException ImmutableCollections$AbstractImmutableList.sort
-        a.sort((x, y) -> (int)y - (int)x);
+        assertThrows(UnsupportedOperationException.class, () -> a.sort((x, y) -> (int)y - (int)x));
     }
 }
